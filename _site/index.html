@@ -3,9 +3,16 @@
   <head>
     <title>Learn Enough JavaScript</title>
     <meta chartset="utf-8">
+    <script src="day.js"></script>
     <script>
-      alert("hello, world");
-      console.log("This page contains a friendly greeting.");
+/*      function dayName(date) {
+        const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday",
+                               "Thursday", "Friday", "Saturday"];
+        return daysOfTheWeek[date.getDay()];
+      }
+*/
+      let now = new Date();
+      alert(greeting(now));
     </script>
   </head>
   <body>
